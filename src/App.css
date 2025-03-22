@@ -1,0 +1,133 @@
+*{
+  /* margin:0px; */
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchSection{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  gap:10px;
+  height:15px;
+  padding-bottom: 10px;
+}
+.Searchbtn{
+  background-color:rgb(255, 174, 0);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius:5px;
+  border: none;
+  width:50px;
+}
+.cardinfo{
+  display:grid;
+  flex-direction:row;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+}
+
+input:focus{
+  /* box-shadow:0px 0px 1px 1px rgb(255, 174, 0); */
+  outline: none;
+  border: 1.5px solid rgb(255, 174, 0);
+  border-radius: 5px;
+
+}
+
+input{
+  outline: none;
+  box-sizing: border-box;
+  /* border-radius: 8px; */
+}
+
+.card img{
+  height:120px;
+  width:140px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card{
+  width:140px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(242, 242, 242);
+  padding-bottom:4px;
+  margin-bottom: 4px;
+  box-shadow:5px 5px 5px grey;
+}
+
+p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:8px;
+}
+.homepage{
+  /* animation:fadeIn 0.3s ease-in forwards;
+  transition: ease-in; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage p{
+   font-size:20px;
+  color:rgb(255, 174, 0);
+  font-weight: bolder;
+}
+
+.recipe-info{
+  background-color:rgb(255, 174, 0);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.nameofrecipe{
+  background-color: red;
+  padding:8px;
+  font-weight: 800;
+  font-style: oblique;
+  font-size:15px;
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.recipe-info img{
+  width:330px;
+  border-radius:10px;
+}
+
+.details{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding-left: 12px;
+}
+
+#heading{
+  font-weight: bolder;
+}
+
+.link{
+  padding:7px;
+  background-color: red;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  text-underline-offset: none;
+}
